@@ -4,10 +4,16 @@ body{width:100%;margin: 0;padding: 0;font-family:"微软雅黑",sans-serif;backg
 
 @media (min-width: 320px)
 {.main-2,.content,.main-3,.main-4,.main-5,.footer-0,.head-2,.container,.container-fluid {width: 85%;} html{font-size:30%;}
-    .footer-1{float: left;width: 50%!important;}
-    .footer-2{float: right;width:50%!important;}
-    .footer-3{width:100%!important;height: auto!important;}
-    .footer-3-1{width:92px;margin: 0 auto;float: none!important;height: auto!important;padding-top:0;}
+    .footer-0{height: auto!important;}
+    .footer-1,.footer-2,.footer-3{width:100%!important;height: auto!important;}
+    .footer-3-1{width:92px;;float: none!important;height: auto!important;padding-top:0;}
+    .footer-1-1 {height: auto!important;line-height: auto!important;margin: 1rem 0;}
+    .footer-1-2 {height: auto!important;line-height: auto!important;padding: 0!important;}
+    .blank{width: 100%;height:0!important;}
+    .footer-3 {padding-top: .5rem;padding-bottom: 0rem}
+    li{width: 100%}
+    .main-1-1{height: 3rem;line-height: 3rem;font-size: 3rem}
+    html{font-size: 40%;}
 }
 @media (min-width: 768px)
 {.main-2,.content,.main-3,.main-4,.main-5,.footer-0,.head-2,.container,.container-fluid {width: 90%;} html{font-size:40%;}
@@ -15,15 +21,27 @@ body{width:100%;margin: 0;padding: 0;font-family:"微软雅黑",sans-serif;backg
     .footer-3{float: right}
     .footer-3{height: 21rem;}
     .footer-3-1{width:92px;margin: 0 auto;float: none!important;height: 21rem;padding-top: 16%;}
+    .footer-1-1 {height: 9rem;line-height: 9rem;margin: 0;}
+    .blank{width: 100%;height: 1.3rem!important;float: left}
+    .footer-3 {padding-top: 0rem;padding-bottom: 2rem}
+    li{width: auto}
+    .navbar-nav{float: right!important;width: 75%;text-align: right}
+    .main-1-1{height:8.2rem;line-height: 8.2rem;;font-size: 1.8rem}
+    html{font-size: 50%;}
 }
 @media (min-width: 992px){
-    .main-2,.content,.main-3,.main-4,.main-5,.footer-0,.head-2, .container,.container-fluid {width: 90%;} html{font-size:50%;}
+    .main-2,.content,.main-3,.main-4,.main-5,.footer-0,.head-2, .container,.container-fluid {width: 90%;} html{font-size:60%;    html{font-size: 60%;}}
 }
 @media (min-width: 1280px)
 {
     .main-2,.content,.main-3,.main-4,.main-5,.footer-0,.head-2, .container,.container-fluid {width: 1200px;}
 }
+@media (max-width: 450px){
+    .td-1{width: 200%!important;display: block;}
+    .td-2{width: 200%!important;display: block;border-left: none!important;}
 
+}
+    @media (max-width: 500px){.main4-p1,.main-4 p{margin-right: 1%!important; }}
 .head{
     width: 100%;
     height: 3.4rem;
@@ -78,15 +96,12 @@ body{width:100%;margin: 0;padding: 0;font-family:"微软雅黑",sans-serif;backg
     color: white;
     float: right;
 }
-.main-1-1{
-    height: 8.2rem;
-    font-size: 1.5rem;
-    line-height: 8.2rem;
-    padding:0  6%;
-    float:right;
+.main-1-1 {
+
+    padding: 0 3%;
+    display: inline-block;
     text-align: center;
-
-
+    white-space: nowrap;
 }
 .main-1-1:hover{
     border-bottom: 3px solid white;
@@ -110,9 +125,10 @@ p{margin: 0}
     height: 6.4rem;
     margin: 0 18%;
     text-align: left;
-    font-size: 1.6rem;
+    font-size: 2rem;
     line-height: 6.4rem;
     border-bottom: 1px solid gainsboro;
+    font-weight: 600;
 
 }
 .main-3 a{
@@ -122,7 +138,6 @@ p{margin: 0}
     text-decoration: none;
 }
 .main-4{
-    height: 6.4rem;
     margin: 0 18%;
     padding: 2rem 0;
     border: 1px solid #F8F8F8;
@@ -137,12 +152,13 @@ p{margin: 0}
 .main-4 p:hover{
     color: white;background: #29B078;
 }
+.main4-p1{margin-right: 3%;height: 6.4rem }
 .main-5{
     height: 6.4rem;
     margin-bottom: 3%!important;
     padding: 0;
     line-height: 6.4rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
     border-bottom: 1px solid gainsboro;
     border-top:1px solid  gainsboro;
@@ -178,21 +194,23 @@ border: 1px solid gainsboro;background: white;}
     border-left: 1px solid gainsboro;
     border-right: 1px solid gainsboro;
     background: white;
+    font-size: 1.2rem;
 }
 .content-1-1 img,.content-1-1 p{
     display: inline-block;
 
 }
 .content-1-1 h1{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: 600;
     text-align: left;
     padding-left: 5%;
 }
 .content-1-1 h2{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: left;
     padding-left: 5%;
+    line-height: 1.6rem;
 }
 .star{
     font-size: 2rem;
@@ -215,6 +233,17 @@ border: 1px solid gainsboro;background: white;}
     border-left: 1px solid gainsboro;
     color: black;
 }
+.td-1{
+    height: 3rem;
+    line-height: 3rem;
+    border-left: none!important;
+}
+.td-2 {
+    height: 3rem;
+    line-height: 3rem;
+
+}
+
 .content-1-4{
     width: 100%;
     padding-left: 5%;
@@ -261,10 +290,6 @@ border: 1px solid gainsboro;background: white;}
     background: #29B078;
     float: left;
 }
-.footer{
-    width: 100%;
-    background: #29B078;
-}
 .footer-0{
     height: 21rem;
     margin: 0 auto;
@@ -278,32 +303,32 @@ border: 1px solid gainsboro;background: white;}
 .footer-4{
     width: 100%;
     height: 3rem;
+    float: left;
 }
 .footer-1-1{
-    width: 100%;
-    height: 9rem;
-    font-size: 2rem;
-    line-height:9rem;
-}
-.footer-1-2 {
+     width: 100%;
+     font-size: 2rem!important;
+ }
+.footer-1-2{
     width: 100%;
     height: 9rem;
     font-size: 1.6rem;
     padding-top: 3.6rem;
 }
-.footer-1-2 a {
-    margin: 0 1%;
+.footer-1-2 a{
+    margin: 0  1%;
     text-decoration: none;
     float: left;
     height: 2rem;
+
 }
 .footer a:hover{
     border-bottom: 1px solid white;
 }
 .footer-2-2{
     width: 100%;
-    height: 9rem;
     font-size: 1.6rem;
+    padding-left: 1%;
 }
 .footer-2-2 a{
     height: 2.25rem;
@@ -311,21 +336,21 @@ border: 1px solid gainsboro;background: white;}
     margin-right: 10%;
     text-decoration: none;
 }
-.footer-3 {
-    padding-bottom: 2rem;
+.blank{
+    width: 100%;
+    height: 1.3rem;
+    float: left"
 }
-.footer-3-1 {
+.footer-3-1{
     height: 21rem;
     float: right;
 }
 .footer-4{
     width: 100%;
-    height: 3rem;
+    margin-top: 2rem;
     font-size: 1.2rem;
     text-align: center;
     color: white;
-    height: 3rem;
-    float: left;
 }
 .content-2 a:hover{
     text-decoration: none;
@@ -351,9 +376,8 @@ border: 1px solid gainsboro;background: white;}
     border: none;
 }
 span {
-    float: left;
     text-align: right;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 .navbar-toggle .icon-bar {
     display: block;
@@ -363,15 +387,12 @@ span {
     margin: 4px 0;
     float: right;
 }
-.navbar-nav {
-    float: right!important;
-    width: 40%;
-}
+
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
     margin: 0;
 }
 
 .navbar-collapse {padding:0!important;}
-a:hover, a:visited {
-    color: white;
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #29B078;
 }

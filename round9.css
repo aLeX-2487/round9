@@ -7,24 +7,30 @@ body{width:100%;margin: 0;padding: 0;font-family:"微软雅黑",sans-serif;backg
 
 
 @media (min-width: 320px)
-{.container-fluid,.main-2,.main-4-2,.footer-0,.head-2,.container {width: 85%;margin: 0 auto} html{font-size:20%;} .ren{width: 15em;text-align: center;margin: 0 auto}  .col-xs-12{margin: 5% 0}
+{.container-fluid,.main-2,.main-4-2,.footer-0,.head-2,.container {width: 85%;margin: 0 auto} html{font-size:80%;} .ren{width: 15em;text-align: center;margin: 0 auto}  .col-xs-12{margin: 5% 0}
     .col-lg-2dot4 {float: left;}
     .col-lg-2dot4 {width: 99%;}
     .col-lg-pull-2dot4 {width: 99%;}
     .col-lg-push-2dot4 {width: 99%;}
     .col-lg-offset-2dot4 {width: 99%;}
-    .footer-1{float: left;width: 50%!important;}
-    .footer-2{float: right;width:50%!important;}
-    .footer-3{width:100%!important;height: auto!important;}
-    .footer-3-1{width:92px;margin: 0 auto;float: none!important;height: auto!important;padding-top:0;}
+    .footer-0{height: auto!important;}
+    .footer-1,.footer-2,.footer-3{width:100%!important;height: auto!important;}
+    .footer-3-1{width:92px;;float: none!important;height: auto!important;padding-top:0;}
     ol, ul {margin-bottom: -5px;}
     .main-2,.main-3{height: 5rem;line-height: 5rem}
+    .footer-1-1 {height: auto!important;line-height: auto!important;margin: 1rem 0;}
+    .footer-1-2 {height: auto!important;line-height: auto!important;padding: 0!important;}
+    .blank{width: 100%;height:0!important;}
+    .footer-3 {padding-top: .5rem;padding-bottom: 0rem}
+     li{width: 100%}
+    .main-1-1{height: 3rem;line-height: 3rem;font-size: 3rem}
+    html{font-size: 40%;}
 
 }
 
 @media (min-width: 768px)
 {.container-fluid,.main-2,.main-4-2,.footer-0,.head-2,.container {width: 90%;margin: 0 auto}
-    html{font-size:40%;}
+    html{font-size:80%;}
     .ren{width:100%;}
     .row-2{text-align: left!important;margin-top:25%}
     .main-back .carousel-indicators .active {
@@ -41,18 +47,27 @@ body{width:100%;margin: 0;padding: 0;font-family:"微软雅黑",sans-serif;backg
     .footer-3-1{width:92px;margin: 0 auto;float: none!important;height: 21rem;padding-top: 16%;}
     ol, ul {margin-bottom: 10px;}
     .main-2,.main-3{height: 10rem;line-height: 10rem}
+    .footer-1-1 {height: 9rem;line-height: 9rem;margin: 0;}
+    .blank{width: 100%;height: 1.3rem!important;float: left}
+    .footer-3 {padding-top: 0rem;padding-bottom: 2rem}
+    li{width: auto}
+    .navbar-nav{float: right!important;width: 75%;text-align: right}
+    .main-1-1{height:8.2rem;line-height: 8.2rem;font-size: 1.8rem}
+    html{font-size: 50%;}
+
 
 }
 
 @media (min-width: 992px)
 {
     .container-fluid,.main-2,.main-4-2,.footer-0,.head-2, .container {width: 90%;margin: 0 auto}
-    html{font-size:50%;}
+    html{font-size:80%;}
     .col-lg-2dot4 {float: left;}
     .col-lg-2dot4 {width: 19.6%;}
     .col-lg-pull-2dot4 {width: 19.6%;}
     .col-lg-push-2dot4 {width: 19.6%;}
     .col-lg-offset-2dot4 {width: 19.6%;}
+    html{font-size: 60%;}
      }
 @media (min-width: 1200px){
 .img-jiantou-1{opacity:0!important;}
@@ -60,6 +75,7 @@ body{width:100%;margin: 0;padding: 0;font-family:"微软雅黑",sans-serif;backg
 
 @media (min-width: 1280px)
 {.container-fluid,.main-2,.main-4-2,.footer-0,.head-2,.container {width: 1200px;;margin: 0 auto}  .main-4-2 a {margin:0 2%;} }
+
 
 
 .head{
@@ -70,7 +86,7 @@ body{width:100%;margin: 0;padding: 0;font-family:"微软雅黑",sans-serif;backg
 .head-1{
     height: 3.4rem;
     text-align: left;
-    font-size: 1.25rem;
+
     line-height:3.4rem;
     color: #29B078;
     float: left;
@@ -79,7 +95,6 @@ body{width:100%;margin: 0;padding: 0;font-family:"微软雅黑",sans-serif;backg
     height: 3.4rem;
     margin:0 auto;
     text-align: left;
-    font-size: 1.25rem;
     line-height:3.4rem;
     color: #29B078;
 }
@@ -119,14 +134,10 @@ body{width:100%;margin: 0;padding: 0;font-family:"微软雅黑",sans-serif;backg
     margin: 0 auto;
 }
 .main-1-1{
-    height: 8.2rem;
-    font-size: 1.5rem;
-    line-height: 8.2rem;
-    padding: 0 6%;
-    float:right;
+    padding: 0 3%;
+    display: inline-block;
     text-align: center;
-
-
+    white-space: nowrap;
 }
 .main-1-1:hover{
     border-bottom: 3px solid white;
@@ -204,7 +215,7 @@ span{
 }
 .row-2 h1{
     display: inline-block;
-    font-size: 18px;
+    font-size: 1.6rem;
     margin: 0 0 0 5%;
     color: #29B078;
 }
@@ -299,7 +310,7 @@ p1{
     line-height:2rem;
 }
 #row-1{
-    padding: 3rem 3rem 0 3rem;
+    padding: 3rem 3rem 2rem 3rem;
     margin:5% 2rem;
 
     width: calc(100% - 4rem);
@@ -366,7 +377,7 @@ a:hover .col-lg-2dot4{
 }
 .main-4-1{
      width: 100%;
-     font-size: 3rem;
+     font-size: 2rem;
      height: 8rem;
      line-height: 8rem;
      text-align: center;
@@ -406,7 +417,6 @@ a:hover .col-lg-2dot4{
     color: white;
     float: left;
 }
-.footer-3{padding-bottom: 2rem}
 .footer-4{
     width: 100%;
     height: 3rem;
@@ -414,9 +424,7 @@ a:hover .col-lg-2dot4{
 }
 .footer-1-1{
       width: 100%;
-      height: 9rem;
-      font-size: 2rem;
-      line-height:9rem;
+      font-size: 2rem!important;
   }
 .footer-1-2{
     width: 100%;
@@ -436,8 +444,8 @@ d
 }
 .footer-2-2{
     width: 100%;
-    height: 9rem;
     font-size: 1.6rem;
+    padding-left: 1%;
 }
 .footer-2-2 a{
     height: 2.25rem;
@@ -445,13 +453,18 @@ d
     margin-right: 10%;
     text-decoration: none;
 }
-
+.blank{
+    width: 100%;
+    height: 1.3rem;
+    float: left"
+}
 .footer-3-1{
     height: 21rem;
     float: right;
 }
 .footer-4{
     width: 100%;
+    margin-top: 2rem;
     font-size: 1.2rem;
     text-align: center;
     color: white;
@@ -505,10 +518,7 @@ d
 .navbar-default .navbar-nav>li>a {
     color: white;
 }
-.navbar-nav{
-    float: right!important;
-    width: 40%;
-}
+
 .nav>li{
     float: right!important;
     padding:0 6%;
@@ -520,17 +530,13 @@ d
 }
 .navbar-collapse {
     padding:0;
-    height: 8.2rem;
 }
-.navbar {
-    border: none;
-}
+
 
 p{
     margin: 0;
-    font-size:25%!important;
+    font-size: 1.6rem;
 }
 
-.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
-margin: 0;
-}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {margin: 0;}
+
